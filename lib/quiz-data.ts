@@ -69,8 +69,9 @@ export const quizData: Question[] = [
 			'Implementirati jednom (izbjeći dupliciranje)',
 			'Dekompozicija velikih komponenti na manje',
 		],
-		correctAnswers: [0, 1, 2, 3],
-		explanation: 'Sve navedene upute su ključne za dobar dizajn arhitekture.',
+		correctAnswers: [0, 1, 2],
+		explanation:
+			'Opće upute za dizajn arhitekture su: razdvajanje problema (1 komponenta 1 problem), stabilna sučelja (da ih ne treba mijenjati), i implementirati jednom (izbjeći dupliciranje). Dekompozicija je dio organizacije komponenti, ali nije u popisu općih uputa.',
 		category: 'Dizajn arhitekture',
 	},
 	{
